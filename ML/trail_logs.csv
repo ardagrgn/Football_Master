@@ -1,0 +1,55 @@
+Model_Name,type,feat_select,Target_Dist,Data_Type,pozitif_acc_treshold_0.5,negatif_acc_treshold_0.5,pozitif_acc_treshold_0.7,negatif_acc_treshold_0.7,pozitif_acc_treshold_0.8,negatif_acc_treshold_0.8,pozitif_acc_treshold_0.9,negatif_acc_treshold_0.9
+Log_Reg,Single,all_columns,binary,Train,0.5593813046402152,0.5551708001871782,0.7185430463576159,0.7192982456140351,1.0,1.0,,
+Log_Reg,Single,all_columns,binary,Test,0.5624430264357339,0.5573266219239373,0.6,0.8888888888888888,,,,
+Log_Reg,Single,manuel_selected,binary,Train,0.5534500168293504,0.5495714508337229,0.6911764705882353,0.5555555555555556,1.0,,,
+Log_Reg,Single,manuel_selected,binary,Test,0.5562894025818073,0.5528846153846154,0.7391304347826086,1.0,,,,
+Log_Reg,Single,test_selected,binary,Train,0.5593608845142587,0.5548881073173768,0.7198581560283688,0.7272727272727273,1.0,,,
+Log_Reg,Single,test_selected,binary,Test,0.5632183908045977,0.5585509688289807,0.6585365853658537,0.9,,,,
+Decistion_Tree,Single,all_columns,binary,Train,0.5490497858672377,0.546024383364152,0.8478260869565217,0.7440476190476191,0.8478260869565217,1.0,,1.0
+Decistion_Tree,Single,all_columns,binary,Test,0.548235294117647,0.5471589270262475,0.5833333333333334,0.40625,0.5833333333333334,0.6666666666666667,,0.6666666666666667
+Decistion_Tree,Single,manuel_selected,binary,Train,0.5551137869665644,0.5412027355451308,0.8148148148148148,0.7173913043478262,1.0,1.0,1.0,1.0
+Decistion_Tree,Single,manuel_selected,binary,Test,0.5503018108651911,0.5384813384813385,0.7096774193548387,0.6,0.625,,0.625,
+Decistion_Tree,Single,test_selected,binary,Train,0.549064873364783,0.5460414968971353,0.851063829787234,0.7435158501440922,0.851063829787234,0.9166666666666666,1.0,0.9166666666666666
+Decistion_Tree,Single,test_selected,binary,Test,0.548235294117647,0.5471589270262475,0.5833333333333334,0.41666666666666663,0.5833333333333334,0.5714285714285714,,0.5714285714285714
+Random_Forrest,Single,all_columns,binary,Train,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Random_Forrest,Single,all_columns,binary,Test,0.5335384615384615,0.5339296730413325,0.6296296296296297,0.6666666666666667,,,,
+Random_Forrest,Single,manuel_selected,binary,Train,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Random_Forrest,Single,manuel_selected,binary,Test,0.5404896421845574,0.5369309617123907,0.6585365853658537,0.6296296296296297,,,,
+Random_Forrest,Single,test_selected,binary,Train,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Random_Forrest,Single,test_selected,binary,Test,0.5469527363184079,0.5499536034642747,0.7419354838709677,0.7222222222222222,,,,
+XG_Poisson,Single,all_columns,poisson,Train,0.6162013568384151,0.7082147857110599,0.9653259361997226,1.0,0.9967948717948718,1.0,1.0,1.0
+XG_Poisson,Single,all_columns,poisson,Test,0.5397358406089098,0.57375,0.6181818181818182,1.0,0.8888888888888888,,1.0,
+XG_Poisson,Single,manuel_selected,poisson,Train,0.595201044124291,0.6728920876417801,0.9567567567567568,1.0,1.0,1.0,1.0,
+XG_Poisson,Single,manuel_selected,poisson,Test,0.5362254025044723,0.5674321503131524,0.6347826086956522,0.75,0.75,,0.8,
+XG_Poisson,Single,test_selected,poisson,Train,0.6173277873592371,0.7069343228863951,0.9615921787709497,1.0,0.9938650306748467,1.0,1.0,
+XG_Poisson,Single,test_selected,poisson,Test,0.5389302640487474,0.5706075533661741,0.6666666666666666,1.0,0.7,,0.0,
+"['Log_Reg', 'Decistion_Tree']",Ensemble_2,all_columns,binary,Test,0.5593881223755249,0.5559015001415228,0.8095238095238095,1.0,,,,
+"['Log_Reg', 'Decistion_Tree']",Ensemble_2,manuel_selected,binary,Test,0.5628042843232717,0.5509772847332277,0.7,,1.0,,,
+"['Log_Reg', 'Decistion_Tree']",Ensemble_2,test_selected,binary,Test,0.5597126608799761,0.556437889960295,0.7619047619047619,0.6,,,,
+"['Log_Reg', 'Random_Forrest']",Ensemble_2,all_columns,binary,Test,0.553941908713693,0.5519610649871172,0.6842105263157895,,,,,
+"['Log_Reg', 'Random_Forrest']",Ensemble_2,manuel_selected,binary,Test,0.5528528528528529,0.549618320610687,0.6428571428571429,,,,,
+"['Log_Reg', 'Random_Forrest']",Ensemble_2,test_selected,binary,Test,0.5637342908438061,0.5602836879432624,0.7333333333333333,1.0,,,,
+"['Log_Reg', 'XG_Poisson']",Ensemble_2,all_columns,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,,0.5002913752913752,
+"['Log_Reg', 'XG_Poisson']",Ensemble_2,manuel_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,,0.5001456452082726,
+"['Log_Reg', 'XG_Poisson']",Ensemble_2,test_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,
+"['Decistion_Tree', 'Random_Forrest']",Ensemble_2,all_columns,binary,Test,0.541037037037037,0.5395189003436427,0.75,1.0,,1.0,,
+"['Decistion_Tree', 'Random_Forrest']",Ensemble_2,manuel_selected,binary,Test,0.5499524262607041,0.5422724824986538,0.6875,,1.0,,,
+"['Decistion_Tree', 'Random_Forrest']",Ensemble_2,test_selected,binary,Test,0.5513880685174247,0.5498419994254524,0.6,0.5714285714285714,,,,
+"['Decistion_Tree', 'XG_Poisson']",Ensemble_2,all_columns,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,,0.500218499635834,
+"['Decistion_Tree', 'XG_Poisson']",Ensemble_2,manuel_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,,0.500218499635834,
+"['Decistion_Tree', 'XG_Poisson']",Ensemble_2,test_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,
+"['Random_Forrest', 'XG_Poisson']",Ensemble_2,all_columns,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,,0.5001456452082726,
+"['Random_Forrest', 'XG_Poisson']",Ensemble_2,manuel_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,,0.5001456452082726,
+"['Random_Forrest', 'XG_Poisson']",Ensemble_2,test_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,,0.5000728119994176,
+"['Log_Reg', 'Decistion_Tree', 'Random_Forrest']",Ensemble_3,all_columns,binary,Test,0.5564444444444444,0.5544100801832761,0.7777777777777778,1.0,,,,
+"['Log_Reg', 'Decistion_Tree', 'Random_Forrest']",Ensemble_3,manuel_selected,binary,Test,0.5580024813895782,0.5511940708207521,0.7647058823529411,,,,,
+"['Log_Reg', 'Decistion_Tree', 'Random_Forrest']",Ensemble_3,test_selected,binary,Test,0.5591044776119403,0.5561558146147285,1.0,,,,,
+"['Log_Reg', 'Decistion_Tree', 'XG_Poisson']",Ensemble_3,all_columns,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5005102784662487,,0.5019095182138661,
+"['Log_Reg', 'Decistion_Tree', 'XG_Poisson']",Ensemble_3,manuel_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5002914602156806,,0.5010233918128655,
+"['Log_Reg', 'Decistion_Tree', 'XG_Poisson']",Ensemble_3,test_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5003643783705,,0.5013200352009387,
+"['Log_Reg', 'Random_Forrest', 'XG_Poisson']",Ensemble_3,all_columns,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5003643783705,,0.501985002205558,
+"['Log_Reg', 'Random_Forrest', 'XG_Poisson']",Ensemble_3,manuel_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5002914602156806,,0.5012439631201522,
+"['Log_Reg', 'Random_Forrest', 'XG_Poisson']",Ensemble_3,test_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5002186270222999,,0.5013227513227513,
+"['Decistion_Tree', 'Random_Forrest', 'XG_Poisson']",Ensemble_3,all_columns,binary,Test,0.5000728119994176,,0.5001456452082726,,0.5002914602156806,,0.5013184881336068,
+"['Decistion_Tree', 'Random_Forrest', 'XG_Poisson']",Ensemble_3,manuel_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.5001456876456877,,0.5005116211080252,
+"['Decistion_Tree', 'Random_Forrest', 'XG_Poisson']",Ensemble_3,test_selected,binary,Test,0.5000728119994176,,0.5000728119994176,,0.500364272184176,,0.5009529394516933,
