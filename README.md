@@ -10,7 +10,7 @@ Target: Aim to make accurate betting on a football match about resulting over 2.
 
 **Languages:** Python, SQL
 
-**Libraries:** <a href="www.google.com">Numpy</a> , Pandas, Requests, Sklearn, Xgboost
+**Libraries:** Numpy , Pandas, Requests, Sklearn, Xgboost
 
   
 ## Project Flow
